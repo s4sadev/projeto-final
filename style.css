@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  background: #1f192f;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin: 0px 0px 25px 0px;
+}
+
+header {
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+img {
+  margin: 10px 10px 0px 10px;
+  height: 60px;
+  width: 60px;
+}
+
+main {
+  width: 1333px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  margin: 25px 100px 25px 100px;
+  background: #423a57;
+  height: 200px;
+  width: 1100px;
+  padding: 15px;
+ border-radius: 10px;
+ flex-direction: column;
+}
+
+.cabeçalho {
+  display: flex;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.charar {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+.charar img   {
+  width: 80px;
+  height: 80px;
+}
+
+.ico img {
+  border-radius: 50px;
+  border: solid #ffffff;
+  width: 74px;
+  height: 74px;
+
+}
+
+p {
+  text-align: center;
+  margin-top: 0px;
+}
+
+button.mais {
+  margin-bottom: 30px;
+  margin-left: 25px;
+  background-color: #423a5700;
+  border:hidden;
+  display: flex;
+}
+
+button.mais:hover {
+  animation-name: titulo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes titulo {
+  50% {
+     transform: translate(10px);
+  }
+}
+
+.most {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  height: 350px;
+  width: 1100px;
+  flex-direction: column;
+}
+
+.charar-most img {
+  height: 80px;
+  width: 80px;
+}
+
+.coluna-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.coluna-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+button.mais-most {
+  background-color: #423a5700;
+  border: hidden;
+}
+
+button.mais-most:hover {
+  animation-name: titulo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+#dendro .charar {
+  display: flex;
+  justify-content: center;
+}
+
+#dendro .charar div.ico {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#dendro button {
+  margin-left: 100px;
+}
