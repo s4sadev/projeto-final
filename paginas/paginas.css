@@ -21,7 +21,6 @@ section {
   height: 350px;
   object-fit: cover;
   border-radius: 10px;
-  position: absolute;
 }
 
 
@@ -31,12 +30,12 @@ section {
   width: 300px;
   height: 60px;
   background-color: #3aa393;
+  margin-top: -8em;
   position: absolute;
-  margin-top: 15em;
 
 }
 
-.titulo h2 , .titulo p {
+.titulo h2 , .titulo h3 {
   margin: 0px;
   margin-left: 10px;
   font-size: 15px;
@@ -44,14 +43,16 @@ section {
 
 .titulo h2 {
   margin-left: 20px ;
-  font-size: 23px;
+  font-size: 21px;
 }
 
-.titulo p{
+.titulo h3{
+  display: flex;
+  margin-left: 21px;
   font-style: italic;
 }
 
-.btn_lermais {
+button {
   text-align: center;
   background-color: transparent;
   color: #423e3e;
@@ -60,8 +61,7 @@ section {
   width: 70px;  
   font-size: 2em;
   padding-bottom: 5px;
-  position: absolute;
-  margin: 11em 0px 0px 9em;
+  margin: 0em 0px 0px 9em;
 }
 
 button:hover {
@@ -69,13 +69,132 @@ button:hover {
 }
 
 
-.descript {
+p {
   display: none;
   position: absolute;
   width: 330px;
   text-align: justify;
   background: #153a347e ;
   padding: 10px;
-  margin-top: 24em;
+  margin-top: 2em;
   border-radius: 10px;
+}
+
+input {
+  border: none;
+  font-size: 5em;
+  color: #423e3e;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+#geo .card{
+  background-color: #c5a565;
+
+}
+
+#geo .titulo {
+  background-color: #d69d48;
+}
+
+#geo p {
+  background-color: #a77c3ca2;
+}
+
+
+#electro .card{
+  background-color: #955fb3;
+
+}
+
+#electro .titulo {
+  background-color: #a166c0;
+  width: 320px;
+}
+
+#electro p {
+  background-color: #8846ac80;
+}
+
+#electro section {
+  justify-content: space-evenly;
+}
+
+#electro body{
+  padding: 60px;
+
+}
+
+#dendro .card {
+  background-color: #7a8855;
+}
+
+#dendro .titulo {
+  background-color: #82964a;
+}
+
+#dendro p {
+  background-color: #8da54d56;
+}
+
+
+#dendro input {
+  font-size: 5em;
+  height: 150px;
+  margin: 0px;
+}
+
+.button {
+  margin: 0px;
+}
+
+#hydro .card {
+  background-color: #428ab1;
+}
+
+#hydro .titulo {
+  background-color: #448cb3;
+}
+
+#hydro p {
+  background-color: #2d759c7a;
+}
+
+.titulo img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+#hydro input {
+  font-size: 5em;
+  height: 150px;
+  margin: 0px;
+}
+
+#pyro .card {
+  background-color: #c46a33;
+}
+
+#pyro .titulo {
+  background-color: #db7632;
+  width: 320px;
+}
+
+#pyro p {
+  background-color: #86441785;
+}
+
+#cryo .card{
+  background-color: #64c2d9;
+}
+
+#cryo .titulo {
+  background-color: #60bcd2;
+}
+
+#cryo p {
+  background-color: #22758a65;
 }
