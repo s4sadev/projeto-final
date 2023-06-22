@@ -156,7 +156,9 @@ button:hover {
   box-shadow: 10px 10px 10px;
 }
 
-.charar div {
-  background-color: #e70000a1;
-  
+.charar div:hover {
+  transition: all 0.15s;
+  background-color: #4b4949a1;
+  height: 120px;
+  border-radius: 27px;
 }
