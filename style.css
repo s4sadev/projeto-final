@@ -150,3 +150,13 @@ button.mais-most:hover {
 #dendro button {
   margin-left: 100px;
 }
+
+
+button:hover {
+  box-shadow: 10px 10px 10px;
+}
+
+.charar div {
+  background-color: #5f5f5fa1;
+  
+}
